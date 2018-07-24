@@ -7,6 +7,7 @@
 * Git
 * JDK 8 or later
 * Maven 3.0 or later
+* MySQL DataBase
 
 ### Clone
 To get started you can simply clone this repository using git:
@@ -16,7 +17,7 @@ cd company
 ```
 
 ### Configuration
-In order to get your chatbot working you have to provide the following settings:
+In order to get your company project working you have to provide the following settings:
 ```
 spring.jpa.hibernate.ddl-auto = update
 spring.datasource.url=jdbc:mysql://localhost:3306/company
